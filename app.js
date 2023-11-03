@@ -11,27 +11,31 @@ function enviarNumero(nn) {
 
 function limparVisor() {
   document.getElementById("visor").value = 0;
-  console.log('visor limpo.');
+  console.log("visor limpo.");
 }
 
 function definirOperador(op) {
   if (op == "+") {
     document.getElementById("visor").value =
       document.getElementById("visor").value + "+";
-  }  if (op == "-") {
+  }
+  if (op == "-") {
     document.getElementById("visor").value =
       document.getElementById("visor").value + "-";
-  }  if (op == "*") {
+  }
+  if (op == "*") {
     document.getElementById("visor").value =
       document.getElementById("visor").value + "*";
-  }  if (op == "/") {
+  }
+  if (op == "/") {
     document.getElementById("visor").value =
       document.getElementById("visor").value + "/";
-      
+    console.log(visor);
   }
 }
 
 function somar() {
   var calculo = eval(document.getElementById("visor").value.toString());
   (document.getElementById("visor").value = calculo), 2000;
+  console.log("calculo feito: " + calculo);
 }
