@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="calc-container">
+        <input type="text" name="visor" id="visor" value="0"><br>
+        <input type="button" class="nm" value="1" onclick="enviarNumero(1)">
+        <input type="button" class="nm" value="2" onclick="enviarNumero(2)">
+        <input type="button" class="nm" value="3" onclick="enviarNumero(3)"><br>
+        <input type="button" class="nm" value="4" onclick="enviarNumero(4)">
+        <input type="button" class="nm" value="5" onclick="enviarNumero(5)">
+        <input type="button" class="nm" value="6" onclick="enviarNumero(6)"><br>
+        <input type="button" class="nm" value="7" onclick="enviarNumero(7)">
+        <input type="button" class="nm" value="8" onclick="enviarNumero(8)">
+        <input type="button" class="nm" value="9" onclick="enviarNumero(9)"><br>
+        <input type="button" class="nm" value="0" onclick="enviarNumero(0)">
+        <input type="button" class="nm" value="." onclick="enviarNumero('.')"><br>
+        <input type="button" value="+" id="opB" onclick='definirOperador("+")'>
+        <input type="button" value="-" id="opB" onclick='definirOperador("-")'>
+        <input type="button" value="*" id="opB" onclick='definirOperador("*")'>
+        <input type="button" value="/" id="opB" onclick='definirOperador("/")'><br>
+        <input type="button" value="C" id="limpB" onclick="limparVisor()">
+        <input type="button" value="=" id="somarB" onclick="somar()">
+
+
+    </div>
+</body>
+</html>

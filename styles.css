@@ -5,51 +5,32 @@
 }
 
 html {
-  background: #1b1b1b;
+  background: #e2e2e2;
   display: flex;
   justify-content: center;
 }
 
-.calc-container {
-  padding-top: 5px;
-  text-align: center;
-  margin-top: 25vh;
-  background: #c4c4c4;
-  width: 10em;
-  height: 55vh;
-}
-
-.nm {
-  margin-top: 3px;
-  padding-inline: 15px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-#somarB {
-  padding-inline: 20px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-#limpB {
-  padding-inline: 20px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-}
-
-#opB {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding: 5px;
-}
-
 #visor {
-  width: 90%;
-  background: #1d1d1d;
-  color: #ccc;
-  border: 3px solid #1d1d1d;
+  width: 99%;
+  font-size: 1.5em;
+  color: #0c0c0c;
   margin-bottom: 5px;
+  text-align: end;
+}
+
+.calc {
+  margin-top: 20vh;
+  background: #000;
+  width: 15em;
+  height: 21em;
+  padding: 1em;
+}
+
+.btn {
+  padding: 1.5em;
+}
+
+.limparB {
+  padding: 1.5em;
+  padding-left: 5.5em;
 }/*# sourceMappingURL=styles.css.map */
